@@ -1,5 +1,6 @@
 // Assign beastify() as a listener for messages from the extension.
 chrome.runtime.onMessage.addListener(beastify);
+alert('oi');
 
 function beastify(request, sender, sendResponse) {
   removeEverything();
